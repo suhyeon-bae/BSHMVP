@@ -1,1 +1,21 @@
-schema/mysql_schema.sql
+-- USER 테이블: 사용자 권한 정보
+CREATE TABLE USER (
+    USER_ID INT AUTO_INCREMENT PRIMARY KEY COMMENT '사번 (고유 ID)',
+    USER_NAME VARCHAR(100) NOT NULL COMMENT '사용자 이름',
+    PHONE VARCHAR(020) COMMENT '연락처',
+    AUTH_CODES TEXT COMMENT '보유 권한 코드 (,로 구분된 STD_CD 목록)',
+    REG_DT DATETIME DEFAULT CURRENT_TIMESTAMP COMMENT '등록일'
+) COMMENT='사용자 테이블';
+
+
+
+-- CODE 테이블: 서비스 코드별 담당자 정보
+CREATE TABLE CODE (
+    std_svc_code VARCHAR(20) NOT NULL COMMENT '표준 서비스 코드 (예: AG0078)',
+    unit_svc_code VARCHAR(20) NOT NULL COMMENT '단위 서비스 코드 (예: AG007801)',
+    ap_owner VARCHAR(50) DEFAULT NULL COMMENT 'AP 담당자 사번 또는 이름',
+    ba_owner VARCHAR(50) DEFAULT NULL COMMENT 'BA 담당자 사번 또는 이름',
+    po_owner VARCHAR(50) DEFAULT NULL COMMENT 'PO 담당자 사번 또는 이름',
+    description VARCHAR(255) DEFAULT NULL COMMENT '서비스 설명',
+    PRIMARY KEY (unit_svc_code)
+) COMMENT='서비스별 담당자 및 코드 정보';
