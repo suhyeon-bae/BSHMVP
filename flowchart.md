@@ -8,7 +8,7 @@ flowchart TD
     CheckAuth -- "보유" --> LookupCode["CODE 테이블에서 AP 담당자 조회"]
     CheckAuth -- "미보유" --> AuthGuide["권한 신청 안내 출력"]
 
-    LookupCode --> CheckAP{"AP 담당자 존재?"}
+    LookupCode --> CheckAP{"AP 담당자 존재 확인"}
     CheckAP -- "있음" --> ShowAP["AP 담당자 정보 출력"]
     CheckAP -- "없음" --> ShowPOBA["PO / BA 정보 출력"]
 
