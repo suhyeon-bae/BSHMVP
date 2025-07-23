@@ -87,6 +87,12 @@ Azure OpenAI, Azure Search, Azure SQL Database 등의 서비스를 연계하여 
 
 ---
 
+
+
+https://github.com/user-attachments/assets/dd81d493-76ec-4f80-81da-338575725223
+
+
+
 ##  결론
 
 - 본 프로젝트는 **Azure 기반 생성형 AI 기능과 검색 기술을 통합**하여,  
