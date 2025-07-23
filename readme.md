@@ -14,9 +14,13 @@ Azure OpenAI, Azure Search, Azure SQL Database 등의 서비스를 연계하여 
   - 권한 없는 사용자의 경우: `"권한이 없습니다. 권한을 획득하세요"` 로 안내
 
 flowchart TD
+
     Start["🟢 사용자 질문 입력 (Streamlit Web)"]
+    
     Start --> LoadPrompt["📄 system_prompt.txt 로 프롬프트 로드"]
+    
     LoadPrompt --> QueryInput["💬 사용자 입력 수집"]
+    
 
     QueryInput --> SearchTrigger["🔍 Azure AI Search로 usernm 기준 조회"]
     SearchTrigger --> SearchResult{"🔎 owner 정보 일치 여부 확인"}
