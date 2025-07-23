@@ -13,14 +13,12 @@ Azure OpenAI, Azure Search, Azure SQL Database 등의 서비스를 연계하여 
   - 예: `"나는 배수현1입니다. ITAM 담당자 알려주세요"` → 해당 담당자 정보 응답
   - 권한 없는 사용자의 경우: `"권한이 없습니다. 권한을 획득하세요"` 로 안내
 
-````mermaid
-flowchart TD
-    Start["사용자 질문 입력"] --> CheckAuth{"사용자 권한 확인"}
-    CheckAuth -- "보유" --> LookupCode["CODE 테이블에서 AP 담당자 조회"]
-    CheckAuth -- "미보유" --> AuthGuide["권한 신청 안내 출력"]
-    LookupCode --> CheckAP{"AP 담당자 존재 확인"}
-    CheckAP -- "있음" --> ShowAP["AP 담당자 정보 출력"]
-    CheckAP -- "없음" --> ShowPOBA["PO / BA 정보 출력"]
+- **흐름도 설명**
+
+- 사용자가 질문을 입력하면 `usernm`에 해당하는 권한(owner)을 조회합니다.
+- 권한이 없는 경우 권한 신청을 안내합니다.
+- 권한이 있을 경우, CODE 테이블에서 AP 담당자 정보를 조회합니다.
+- AP 담당자가 없을 경우, PO 및 BA 담당자를 제공합니다.
 
 ---
 
