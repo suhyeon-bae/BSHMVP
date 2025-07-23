@@ -25,6 +25,8 @@ Azure OpenAI, Azure Search, Azure SQL Database 등의 서비스를 연계하여 
 ## 2. 기술 구현 
 
   - `Azure SQL Database`에서 원본 데이터 관리
+    <img width="1100" height="439" alt="image" src="https://github.com/user-attachments/assets/338dded2-0af0-41cf-a5ac-faa7dcbc5fc8" />
+
   - `Azure Cognitive Search`를 통한 백터 인덱스 + 의미 기반 검색 구성
   - `Azure OpenAI` 모델(gpt-4o)과 연동하여 사용자 쿼리에 대해 자연어 응답 제공
   - `.env`를 통한 안전한 키 관리 및 배포 자동화 스크립트(streamlit.sh) 구현
