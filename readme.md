@@ -51,6 +51,8 @@ Azure OpenAI, Azure Search, Azure SQL Database 등의 서비스를 연계하여 
 - **UI 및 흐름**:
   - 웹 페이지에 접속 후 간단한 텍스트 입력만으로 담당자 정보를 얻을 수 있음
   - 최소 입력으로 의미 있는 결과 도출 → 접근성과 사용성 고려
+    <img width="737" height="259" alt="image" src="https://github.com/user-attachments/assets/7abef3a0-4adf-441e-b3a6-c321b05c0c85" />
+
 
 - **절차 간편화**:
   - 사용자는 Streamlit UI에서 `"질문 입력 → 버튼 클릭"` 만으로 결과 확인 가능
@@ -89,6 +91,4 @@ Azure OpenAI, Azure Search, Azure SQL Database 등의 서비스를 연계하여 
 
 - 본 프로젝트는 **Azure 기반 생성형 AI 기능과 검색 기술을 통합**하여,  
   **실제 업무에 적용 가능한 IT 서비스 도우미 시스템**을 구현한 사례입니다.
-- 기능, 기술, UX, 데모, 확장성 각 항목에 걸쳐 요구 수준을 충족하며,  
-  **현장 적용 및 고도화 가능성이 높은 MVP 제품**으로 판단됩니다.
 
