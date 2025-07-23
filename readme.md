@@ -28,15 +28,15 @@ Azure OpenAI, Azure Search, Azure SQL Database 등의 서비스를 연계하여 
     <img width="1100" height="439" alt="image" src="https://github.com/user-attachments/assets/338dded2-0af0-41cf-a5ac-faa7dcbc5fc8" />
 
   - `AzureSearch Service`를 통한 백터 인덱스 + 의미 기반 검색 구성
-  - <img width="1160" height="141" alt="image" src="https://github.com/user-attachments/assets/7e9b603f-facf-4ef9-a127-0a5f8c112277" />
+    <img width="1160" height="141" alt="image" src="https://github.com/user-attachments/assets/7e9b603f-facf-4ef9-a127-0a5f8c112277" />
 
   - `Azure OpenAI` 모델(gpt-4o)과 연동하여 사용자 쿼리에 대해 자연어 응답 제공
-  - <img width="1233" height="191" alt="image" src="https://github.com/user-attachments/assets/613315eb-4d70-421c-bf65-3860b682c210" />
+  -<img width="1233" height="191" alt="image" src="https://github.com/user-attachments/assets/613315eb-4d70-421c-bf65-3860b682c210" />
 
   - `.env`를 통한 안전한 키 관리 및 배포 자동화 스크립트(streamlit.sh) 구현
-  - <img width="188" height="126" alt="image" src="https://github.com/user-attachments/assets/2a04e74f-8477-49bd-8837-9ecab3eace7c" />
+   <img width="188" height="126" alt="image" src="https://github.com/user-attachments/assets/2a04e74f-8477-49bd-8837-9ecab3eace7c" />
 
-  - <img width="960" height="449" alt="image" src="https://github.com/user-attachments/assets/4a1f49c5-1825-4754-8f12-79299951afc8" />
+   <img width="960" height="449" alt="image" src="https://github.com/user-attachments/assets/4a1f49c5-1825-4754-8f12-79299951afc8" />
 
 
 - **코드 구성**:
