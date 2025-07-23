@@ -63,7 +63,7 @@ Azure OpenAI, Azure Search, Azure SQL Database 등의 서비스를 연계하여 
 
 ---
 
-## 5. 혁신성 및 확장성 ✅ (20점)
+## 5. 혁신성 및 확장성
 
 - **독창성**:
   - 기존 RAG 응용을 넘어, 사용자 권한 체크까지 반영한 응답 제어 기능 구현
@@ -75,7 +75,7 @@ Azure OpenAI, Azure Search, Azure SQL Database 등의 서비스를 연계하여 
 
 ---
 
-## 🔚 결론
+##  결론
 
 - 본 프로젝트는 **Azure 기반 생성형 AI 기능과 검색 기술을 통합**하여,  
   **실제 업무에 적용 가능한 IT 서비스 도우미 시스템**을 구현한 사례입니다.
